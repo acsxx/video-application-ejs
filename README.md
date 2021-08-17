@@ -2,7 +2,7 @@
 
 This app includes =>
 
- Backend, authentication : NodeJS, 
+ Backend, authentication : NodeJS. 
  Peer to peer calling : PeerJS, Socket.io, 
  Database : MongoDB.
 
