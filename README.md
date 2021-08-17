@@ -2,11 +2,11 @@
 
 This app includes =>
 
-# Backend, authentication : NodeJS, 
-# Peer to peer calling : PeerJS, Socket.io, 
-# Database : MongoDB.
+ Backend, authentication : NodeJS, 
+ Peer to peer calling : PeerJS, Socket.io, 
+ Database : MongoDB.
 
-For start application =>
-
+#Type the following commands to run the application  =>
+$ npm install
 $ peerjs --port 5001
 $ npm start
