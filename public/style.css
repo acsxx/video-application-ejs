@@ -1,0 +1,138 @@
+body{
+    background-color: gray;
+    margin: 0;
+    padding: 0%;
+}
+
+#video-grid{
+    display: flex;
+    justify-content: center;
+}
+
+#roomId,#userId,#guestId,#userName{
+display: block;
+}
+
+video{
+    border: 1px solid gray;
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+}
+
+.mainLeft{
+    display: inline-block;
+    background-color:#212529;
+    border-right: 1px solid black;
+}
+
+.mainMiddle{
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainRight{
+    flex: 0.2;
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+}
+
+.mainVideos{
+    flex-grow: 1;
+    background-color: #0b090a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainControls{
+    display: flex;
+    padding: 5px;
+    background-color: #1c1e20;
+    color: #d2d2d2;
+    justify-content: space-between;
+}
+
+.mainControlsLeft{
+    display: grid;
+}
+.mainControlsBlock{
+    background-color: #495057;
+    display: flex;
+    border-radius: 10%;
+}
+
+.mainControlsButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 10px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.mainControlsButton i{
+    font-size: 24px;
+}
+.mainControlsButtonLeft{
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 5px;
+}
+.mainControlsButton:hover{
+    background-color: #212529;
+    border-radius: 10%;
+}
+
+.leave_meeting{
+    color: #660708;
+}
+
+.mainMessageContainer{
+    padding: 22px 12px;
+    display: flex;
+    color: white;
+}
+
+.mainChatWindow{
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.mainMessageContainer input{
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.messages{
+    color: white;
+    list-style: none;
+}
+
+.unMute .stop{
+    color: red;
+}
+
+.message{
+  margin-left: 25px;
+}
+
+body {
+    font-size: .875rem;
+  }
+
+p{
+  color: gray;
+}
