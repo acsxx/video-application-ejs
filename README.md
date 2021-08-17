@@ -6,7 +6,7 @@ This app includes =>
  Peer to peer calling : PeerJS, Socket.io, 
  Database : MongoDB.
 
-#Type the following commands to run the application  =>
+# Type the following commands to run the application  =>
 $ npm install
 $ peerjs --port 5001
 $ npm start
